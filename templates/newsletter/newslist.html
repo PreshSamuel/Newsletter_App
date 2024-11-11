@@ -1,0 +1,16 @@
+<h1> nennwss </h1>
+
+<ul>
+    {% for object in news_item %}
+
+        <p>{{object.title}}</p>
+
+        <li>
+            <a href="{% url 'newsletter:det' object.pk %}"></a> dance</a>
+        </li> <br> 
+        <!-- <li>
+            {{object.body}}
+        </li> -->
+
+    {% endfor %}
+</ul>

@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.news-sec {
+    border: 1px solid red;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 198, 172);
+    color: white;
+}
+
+.news {
+    width: 60%;
+    height: 70vh;
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;
+    justify-content: end;
+    /* background-image: url('./Premium\ Photo\ _\ Sport\ car\ wallpaper\ illustration\ images.jpg');/ */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.img-form {
+    border: 1px solid red;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email {
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: rgb(226, 198, 172);
+}
+
+.btn-holder {
+    display: flex;
+    align-items: end;
+    padding: 30px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(147, 194, 194);
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+}

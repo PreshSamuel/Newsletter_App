@@ -1,0 +1,9 @@
+{% load static %}
+
+{% for object in objects %}
+    <a href="{% url 'newsletter:dets' object.pk %}">hla</a>
+
+    <h1>{{news_items}}</h1>
+
+    <p>{{object.body}}</p>
+{% endfor %}
