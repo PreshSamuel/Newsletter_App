@@ -28,13 +28,13 @@
 
             <div class="img-form">
 
-                <h3>subscribe to our newsletter</h3>
+                <h3>Subscribe to our newsletter</h3>
 
                 <form action="" method="post">
                     {% csrf_token %}
-                    {{ form.as_p }}
+                    <!-- {{ form.as_p }} -->
 
-                    <!-- <input type="{{form.as_p}}" class="email" placeholder="Enter Email"> -->
+                    <input type="email" class="email" placeholder="Enter Email" name="email">
 
                     <div class="btn-holder"> 
                         <button type="submit" class="btn">Submit</button>
